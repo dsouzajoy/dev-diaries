@@ -24,7 +24,7 @@ const Header = () => {
           </button>
         )}
         <Link to="/profile">
-          <Avatar name="Arpith S" />
+          <Avatar name="Sudhanva Kote" />
         </Link>
       </div>
     </div>
