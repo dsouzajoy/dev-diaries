@@ -1,16 +1,19 @@
 import './Header.css'
 import { Avatar } from '@chakra-ui/react'
 import { ReactComponent as AddIcon } from '../../assets/icons/plus.svg'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate, Link } from 'react-router-dom'
 
 const Header = () => {
   const navigate = useNavigate()
   const location = useLocation()
+  console.log(location)
   return (
     <div className="header">
-      <div className="logo">Dev Diaries</div>
+      <Link to="/">
+        <div className="logo">Dev Diaries</div>
+      </Link>
       <div className="header__right">
-        {!location.pathname.includes('/add-project') && (
+        {location.pathname === '/' && (
           <button
             onClick={() => {
               navigate('/add-project')
@@ -20,7 +23,9 @@ const Header = () => {
             <AddIcon /> Add
           </button>
         )}
-        <Avatar name="Arpith S" />
+        <Link to="/profile">
+          <Avatar name="Arpith S" />
+        </Link>
       </div>
     </div>
   )

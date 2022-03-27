@@ -28,7 +28,7 @@ const AddProject = () => {
         </FormControl>
         <FormControl mt={5}>
           <FormLabel>Learning Experience</FormLabel>
-          <Input onChange={handleFormChange} value={formState.learninbXp} id="learningXp" />
+          <Input onChange={handleFormChange} value={formState.learningXp} id="learningXp" />
         </FormControl>
         <FormControl mt={5}>
           <FormLabel>Thumbnail URL</FormLabel>
