@@ -1,0 +1,24 @@
+.header {
+  height: 70px;
+  padding: 0px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--elevation-1);
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--primary);
+}
+
+.cta-margin {
+    margin-right: 40px;
+}
