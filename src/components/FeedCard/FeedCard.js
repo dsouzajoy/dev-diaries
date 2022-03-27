@@ -19,7 +19,7 @@ const FeedCard = ({ title, description, imgSrc, tags = [] }) => {
 
   return (
     <div className="feed-card">
-      <img className="feed-card__thumbnail" src={imgSrc} />
+      <img className="feed-card__thumbnail" src={imgSrc} alt='thumbnai'/>
       <div className="feed-card__content">
         <h3 className="feed-card__title">{title}</h3>
         <p className="feed-card__description">{description}</p>
