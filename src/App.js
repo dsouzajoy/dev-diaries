@@ -2,7 +2,8 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Header from './components/Header'
-import AddProject from './components/AddProject'
+import AddProject from './pages/AddProject'
+import Profile from './pages/Profile/Profile'
 
 const App = () => (
   <div className="container">
@@ -11,6 +12,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/add-project" element={<AddProject />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
   </div>
