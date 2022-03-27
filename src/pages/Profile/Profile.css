@@ -59,7 +59,7 @@
   height: 220px;
   width: 220px;
   min-width: 220px;
-  overflow: scroll;
+  overflow: hidden;
   font-size: 14px;
 }
 .project-list-container {

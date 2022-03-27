@@ -1,5 +1,7 @@
 import { Avatar } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 import './Profile.css'
+
 
 const Profile = () => {
   return (
@@ -26,6 +28,7 @@ const Profile = () => {
       <div className="corner-box">
         <div className="title">Project List</div>
         <div className="project-list-container">
+          <Link className='feed-card__link' to={`/viewproject/${'1456'}`}>
           <div className="card">
             <div className="title">Baxbill</div>
             <div className="sub-title">
@@ -33,6 +36,7 @@ const Profile = () => {
               That payment gateway
             </div>
           </div>
+          </Link>
           <div className="card">
             <div className="title">Particle Accelerator Stimulation</div>
             <div className="sub-title">

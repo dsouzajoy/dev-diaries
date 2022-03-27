@@ -3,14 +3,15 @@ import './ViewProject.css'
 const ViewProject = () => {
   return (
     <div className="  content">
-      <div className=" title">My amazing Project</div>
-      <div className=" sub-title">this amazing project does things that words cant even describe</div>
-      <div className="box">Created by: God Himself</div>
+      <div className=" title">Baxbill</div>
+      <div className=" sub-title">An e-commerce platform buit with React, NodeJS, MongoDB, Redux and
+              That payment gateway</div>
+      <div className="box">Created by: Sudhanva Kote</div>
       <div className="box"><a href="http://www.github.com">Link to Project</a></div>
-      <div className="box">PreRequsite: 7 Years of expertise </div>
-      <div className="box">Technologies Used : Java and Black Magic</div>
+      <div className="box">PreRequsite: Knowladge on React </div>
+      <div className="box">Technologies Used : ReactJS</div>
       <div className="box content post">
-          image or whatever
+          To Start with the project you need to have NodeJS. After downloading the code go to the folder and run the command "npm start" 
       </div>
       <div className="comment">
           <form>
