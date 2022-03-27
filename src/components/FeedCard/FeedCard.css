@@ -1,0 +1,53 @@
+.feed-card {
+  display: flex;
+  overflow-wrap: break-word;
+  border-radius: 8px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.feed-card__thumbnail {
+  width: 320px;
+}
+
+.feed-card__content {
+  padding: 20px;
+}
+
+.feed-card__title {
+  font-size: 1.5rem;
+  margin: 5px 0px;
+}
+
+.feed-card__vote-container {
+  min-width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 40px;
+  color: transparent;
+}
+
+.feed-card__vote-icon {
+  margin-bottom: 20px;
+}
+
+.feed-card__tag-container {
+  padding: 20px 0px;
+}
+
+.feed-card__tag {
+  color: var(--primary);
+}
+
+.font-blue {
+  color: var(--primary);
+}
+
+.font-red {
+  color: var(--red);
+}
